@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Intoducir zapato</title>
+    <link rel="stylesheet" href="../css/formulario02.css">
+    <script src="../js/myscript.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="textos">
+            <h1 class="nombre">ZAPATERIA GOYITA <br><span>TU ZAPATERIA</span></h1>
+            <h3>LOS MEJORES ZAPATOS A TUS PIES CON EL MEJOR PRECIO</h3>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./Formulario01.html">INTRODUCIR PRODUCTO</a></li>
+                <li><a href="./Formulario02.html">PEDIDOS</a></li>
+                <li><a href="https://goya12031969.github.io/Pilaresautonomiaeconomica/">Autonomía Económica</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+
+        <section class="menu">
+            <div class="contenedor">
+                <h3 class="titulo" id="articulo">Los Pedidos</h3>
+                <div class="contenedor-menu1">
+                    <div class="contenedor-menu2">
+
+                        <article>
+                            <p class="categoria">TENIS DEPORTIVOS</p>
+
+                            <div class="articulo">
+                                <p class="cantidad" id="id0">Cantidad: 0</p>
+                                <p class="nombre">ADIDAS</p>
+                                <p class="precio">$550</lavel>
+                                    <p class="descripcion">PIEL, CABALLERO num 25</p>
+                                    <input type="button" value="Agregar" class="boton" onclick="agregar(0)">
+
+                            </div>
+                            <div class="articulo">
+                                <p class="cantidad" id="id1">Cantidad: 0</p>
+                                <p class="nombre">NIKE</p>
+                                <p class="precio">$650</p>
+                                <p class="descripcion">NYLON 100%,CABALLERO, num.27</p>
+                                <input type="button" value="Agregar" class="boton" onclick="agregar(1)">
+
+                            </div>
+                            <div class="articulo">
+                                <p class="cantidad" id="id2">Cantidad: 0</p>
+                                <p class="nombre">FILA</p>
+                                <p class="precio">$750</p>
+                                <p class="descripcion">PIEL, DAMA num 23 </p>
+                                <input type="button" value="Agregar" class="boton" onclick="agregar(2)">
+
+                            </div>
+                            <div class="articulo">
+                                <p class="cantidad" id="id3">Cantidad: 0</p>
+                                <p class="nombre">PUMA</p>
+                                <p class="precio">$420</p>
+                                <p class="descripcion">PIEL, NIÑO, num 22</p>
+                                <input type="button" value="Agregar" class="boton" onclick="agregar(3)">
+
+                            </div>
+                        </article>
+                        <article>
+                            <p class="categoria">ZAPATO DE VESTIR </p>
+                            <div class="articulo">
+                                <p class="cantidad" id="id4">Cantidad: 0</p>
+                                <p class="nombre">JEAN PIERRE</p>
+                                <p class="precio">$1350</p>
+                                <p class="descripcion">PIEL, CABALLERO, num 26</p>
+                                <input type="button" value="Agregar" class="boton" onclick="agregar(4)">
+
+                            </div>
+                            <div class="articulo">
+                                <p class="cantidad" id="id5">Cantidad: 0</p>
+                                <p class="nombre">EMICO</p>
+                                <p class="precio">$620</p>
+                                <p class="descripcion">PIEL, DAMA, num 24</p>
+                                <input type="button" value="Agregar" class="boton" onclick="agregar(5)">
+
+                            </div>
+                            <div class="articulo">
+                                <p class="cantidad" id="id6">Cantidad: 0</p>
+                                <p class="nombre">DOROTY GAYNOR, </p>
+                                <p class="precio">$590</p>
+                                <p class="descripcion">SINTETICO, DAMA, num 25</p>
+                                <input type="button" value="Agregar" class="boton" onclick="agregar(6)">
+
+                            </div>
+                            <div class="articulo">
+                                <p class="cantidad" id="id7">Cantidad: 0</p>
+                                <p class="nombre">VAVITO</p>
+                                <p class="precio">$450</p>
+                                <p class="descripcion">PIEL, NIÑO, num 22</p>
+                                <input type="button" value="Agregar" class="boton" onclick="agregar(7)">
+
+                            </div>
+
+
+                        </article>
+
+                    </div>
+
+
+                    <ul class="totales">
+                        <li>
+                            <h1 class="pagar" id="idPagar"></h1>
+                        </li>
+                        <li>
+                            <h1 class="total" id="idTotal">Total: $0</h1>
+                        </li>
+                        <li><input type="button" value="PAGAR" class="botonPagar" onclick="pagar()"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
